@@ -11,7 +11,7 @@ def send_mail():
     mail = smtplib.SMTP("smtp.gmail.com", 587)
     mail.starttls()
 
-    mail.login("smtptestmail6969@gmail.com", "smtpsmtpsmtp")
+    mail.login("your_email", "your_password")
 
     msg['Subject'] = subject.get()
     msg['To'] = to_field.get()
